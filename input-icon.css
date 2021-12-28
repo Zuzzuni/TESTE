@@ -1,0 +1,35 @@
+input[type=text]{
+
+    width: 100%;
+    border:none;
+    height: 30px;
+    padding-left:30px
+
+
+}
+
+input[type=password]{
+
+    width: 100%;
+    border:none;
+    height:30px;
+    padding-left:30px
+
+}
+
+.geral-input{
+    position: relative;
+}
+ 
+.geral-input i{
+
+    position: absolute;
+    left:0;
+    top:10px;
+    margin:0 7px;
+    color:grey;
+}
+
+
+
+

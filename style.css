@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Poppins:wght@300;500;700&family=Roboto:ital,wght@1,300&display=swap');
+
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+    border:none
+
+}
+
+body{
+    background:rgb(163, 86, 236);
+    display: flex;
+    min-height: 100vh;
+    max-width: 100vh;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    
+
+}
+
+main{
+    display: flex;
+    width: 500px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    height: 370px;
+    margin-top:80px;
+    
+    
+}
+
+main h1 {
+    color: #c81aeb;
+    font-size: 2rem;
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+.social-midia{
+
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    margin-bottom: 28px;
+}
+
+.social-midia i{
+
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 34px;
+    color:grey;
+}
+
+.social-midia i:nth-child(1){
+    padding-left: 0;
+    
+      
+}
+
+form{
+
+    display: flex;
+    flex-direction: column;
+    gap:23px;
+}
+
+main form input[type="submit"]{
+
+cursor: pointer;
+background:#c81aeb ;
+height: 30px;
+padding: 4px 33px;
+border-radius: 10px;
+color:wheat
+}
+
+main form input[type="submit"]:hover{
+
+    background-color: transparent;
+    color:#c81aeb;
+    border: 1px solid #c81aeb;
+
+
+}
+
+span{
+    color:grey;
+
+}
+
+
